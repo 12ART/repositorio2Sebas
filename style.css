@@ -1,0 +1,78 @@
+h1{
+    color:aliceblue;
+background-color:transparent
+}
+*{
+    background-color:rgba(253, 245, 230, 0.945)
+}
+
+.header{
+    background-color:cadetblue;
+    display:flex;
+    justify-content:space-between;
+    width:auto
+}
+
+.menu{
+    margin-right:30px;
+    background-color:transparent;
+    font-size:20px;
+    margin-top:30px;
+}
+
+.menu a{
+    margin-left:25px;
+    background-color:transparent;
+    text-decoration:none;
+    color:white;
+}
+
+.greed{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+
+.item{
+    position:relative
+}
+
+.item h2{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+
+
+.item:hover h2{
+    opacity: 1;
+  
+}
+
+.item:hover img{
+    opacity: 0.33;
+   
+} 
+
+.conoceme{
+    text-align:center;
+    color: cadetblue
+}
+
+.img_hobby{
+    width:300px;
+    height:300px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin:70px;
+}
